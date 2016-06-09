@@ -7,12 +7,12 @@
 [ci]:      https://travis-ci.org/MattDiMu/postcss-nth-child-fix
 
 ```css
+/* input */
 .foo:nth-child(n) {
     color: blue;
 }
-```
 
-```css
+/* output */ 
 .foo:nth-child(1n) {
     color: red;
 }
