@@ -1,0 +1,35 @@
+{
+  "name": "postcss-nth-child-fix",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to fix a known android bug with nth-child (safe).",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "nth-child",
+    "fix",
+    "bug",
+    "android"
+  ],
+  "author": "Matthias Müller <MattDiMu@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "MattDiMu/postcss-nth-child-fix",
+  "bugs": {
+    "url": "https://github.com/MattDiMu/postcss-nth-child-fix/issues"
+  },
+  "homepage": "https://github.com/MattDiMu/postcss-nth-child-fix",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
