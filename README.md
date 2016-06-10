@@ -14,7 +14,7 @@
 
 /* output */ 
 .foo:nth-child(1n) {
-    color: red;
+    color: blue;
 }
 ```
 
