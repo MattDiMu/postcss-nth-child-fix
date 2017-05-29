@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-nth-child-fix', function (opts) {
+module.exports = postcss.plugin('postcss-nth-child-fix', function (opts) { // eslint-disable-line no-unused-vars
     opts = opts || {};
 
     return function (css) {
